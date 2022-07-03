@@ -78,4 +78,28 @@ h2 {
     height: 42%;
 }
 
+/* Section-3 */
+#section-3 {
+    background-color: orange;
+    padding: 50px 0;
+}
 
+.contact-info {
+    margin-left: 44%;
+}
+
+.images-contact {
+    margin: 0 42%;
+}
+
+.contact-images {
+    margin: 0 8px;
+}
+
+.contact-images:hover {
+    transform: scale(0.7);
+}
+
+.org-name-contact-list {
+    margin-left: 45%;
+}
