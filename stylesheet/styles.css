@@ -104,3 +104,42 @@ h2 {
     font-family: 'Domine', serif;
     margin-left: 45%;
 }
+
+@media (max-width: 1912px) {
+    .images {
+        width: 442px;
+        height: 42%;
+    }
+
+    .burger {
+        width: 443px;
+        height: 46%;
+    }
+}
+
+@media (max-width: 1898px) {
+    .images {
+        width: 439px;
+        height: 42%;
+    }
+
+    .burger {
+        width: 440px;
+    }
+}
+
+@media (max-width: 1884px) {
+    .images, .burger {
+        width: 436px;
+    }
+}
+
+@media (max-width: 1873px) {
+    .images, .burger {
+        width: 434px;
+    }
+
+    .contact-images {
+      margin-left: 1%;  
+    }
+}   
