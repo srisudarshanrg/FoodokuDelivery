@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Section 1 */
+.navbar, .navbar-brand, .nav-link {
+    background-color: #eee;
+    color: black;
+    font-family: 'Domine', serif;
+    font-size: 1.7rem;
+}
+
+.navbar-brand, .nav-link {
+    margin-left: 30%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 25px;
+}
+
+.dropdown-item {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+.logo:hover{
+    transform: rotate(22deg);
+}
+
+.nav-link:hover {
+    color: orange;
+    transform: scale(1.3);
+}
+
+.dropdown-item:hover {
+    color: orange;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.dropdown-item::before {
+    font-weight: bold;
+    content: "--> ";
+    color: orangered;
+}
+
+/* Section-2 */
+h2, .item-type {
+    color: orange;
+    margin: 15px 44%;
+    text-decoration: none;
+}
+
+.item-type,h2:hover {
+    transform: scale(1.1);
+}
+
+.arrow:hover {
+    transform: rotate(320deg);
+}
